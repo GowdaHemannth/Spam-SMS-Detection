@@ -1,2 +1,4 @@
 stopwords
-punkt
+
+nltk.download('punkt')
+nltk.download('punkt_tab')
