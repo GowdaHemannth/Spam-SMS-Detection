@@ -2,7 +2,10 @@ import streamlit as st
 import nltk
 import nltk
 nltk.data.path.append(r"C:\Users\Heman\AppData\Roaming\nltk_data")
+
+import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 import pickle
 import string
